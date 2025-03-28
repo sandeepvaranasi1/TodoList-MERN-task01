@@ -5,10 +5,15 @@ A **simple and intuitive** Todo List application built with **Node.js, Express, 
 ## 🚀 Features
 
 ✅ **Add, View, Update, and Delete (CRUD) Todos**
+
 ✅ **Filter Todos** (Completed/Pending)
+
 ✅ **Search for Todos** by Title
+
 ✅ **Edit Todo Titles** with Inline Editing
+
 ✅ **Responsive UI** with Material-UI
+
 ✅ **Dark & Light Mode Support** (Optional)
 
 ## 🏗 Tech Stack
@@ -23,7 +28,7 @@ A **simple and intuitive** Todo List application built with **Node.js, Express, 
 
 - **React.js** with **Material-UI**
 - **Redux Toolkit** for State Management
-- **TypeScript** for Type Safety (Optional)
+- **TypeScript** for Type Safety 
 
 ## 🚀 Getting Started
 
@@ -32,7 +37,7 @@ Follow these steps to set up and run the project on your local machine:
 ### 1️⃣ Clone the Repository
 
 ```sh
- git clone https://github.com/your-username/todo-list-app.git
+ git clone https://github.com/sandeepvaranasi1/todo-list-app.git
  cd todo-list-app
 ```
 
@@ -75,13 +80,13 @@ Create a **.env** file in the **backend** folder and add:
 
 ## 🌐 API Endpoints
 
-| Method     | Endpoint     | Description                  |
-| ---------- | ------------ | ---------------------------- |
-| **GET**    | `/todos`     | Get all todo items           |
-| **POST**   | `/todos`     | Create a new todo item       |
-| **GET**    | `/todos/:id` | Get a single todo item by ID |
-| **PUT**    | `/todos/:id` | Update a todo item by ID     |
-| **DELETE** | `/todos/:id` | Delete a todo item by ID     |
+| Method     | Endpoint         | Description                  |
+| ---------- | ------------     | ---------------------------- |
+| **GET**    | `/`              | Get all todo items           |
+| **POST**   | `/`              | Create a new todo item       |
+| **GET**    | `/:id`           | Get a single todo item by ID |
+| **PUT**    | `/editTitle/:id` | Update a todo item by ID     |
+| **DELETE** | `/:id`           | Delete a todo item by ID     |
 
 ---
 
@@ -93,12 +98,6 @@ Contributions are welcome! To contribute:
 2. Create a **feature branch**
 3. **Commit** your changes
 4. Submit a **pull request**
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
 
 ---
 
