@@ -28,7 +28,12 @@ A **simple and intuitive** Todo List application built with **Node.js, Express, 
 
 - **React.js** with **Material-UI**
 - **Redux Toolkit** for State Management
-- **TypeScript** for Type Safety 
+- **TypeScript** for Type Safety
+
+### **Screenshots**
+
+![HomePage](image.png)
+![Add Todo](image-1.png)
 
 ## 🚀 Getting Started
 
@@ -81,7 +86,7 @@ Create a **.env** file in the **backend** folder and add:
 ## 🌐 API Endpoints
 
 | Method     | Endpoint         | Description                  |
-| ---------- | ------------     | ---------------------------- |
+| ---------- | ---------------- | ---------------------------- |
 | **GET**    | `/`              | Get all todo items           |
 | **POST**   | `/`              | Create a new todo item       |
 | **GET**    | `/:id`           | Get a single todo item by ID |
