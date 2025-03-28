@@ -1,4 +1,4 @@
-##gitTodo List App
+##Todo List App
 
 A simple todo list app built with Node.js, Express, and React.
 
