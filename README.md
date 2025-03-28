@@ -31,8 +31,10 @@ A **simple and intuitive** Todo List application built with **Node.js, Express, 
 - **TypeScript** for Type Safety
 
 ### **Screenshots**
-
+## Home Page:
 ![HomePage](image.png)
+
+## Add Todo Dialog:
 ![Add Todo](image-1.png)
 
 ## 🚀 Getting Started
